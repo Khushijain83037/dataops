@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const BASE = 'https://pyth.devchauhan.com/'
+const BASE = 'https://pyth.devchauhan.com'
 
 export function useFetch(endpoint) {
   const [data, setData]       = useState(null)
