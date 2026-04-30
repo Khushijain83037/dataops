@@ -1,0 +1,42 @@
+order_id,customer_id,product,amount,order_date,status
+1001,1,Laptop Pro,1200.00,2023-01-05,completed
+1002,2,Wireless Mouse,45.00,05/02/2023,completed
+1003,3,Blue Jeans,59.99,01-15-2023,pending
+1004,4,Coffee Table,349.00,2023-02-20,completed
+1005,5,Python Cookbook,49.99,2023-03-01,completed
+1006,6,Yoga Mat,35.00,10/03/2023,cancelled
+1007,7,4K Monitor,599.00,2023-03-18,completed
+1008,8,Laptop Pro,,2023-04-02,completed
+1009,9,Running Shoes,120.00,04-10-2023,completed
+1010,10,Clean Code,44.99,2023-04-22,refunded
+1011,1,Mechanical Keyboard,149.99,2023-05-05,completed
+1012,2,Winter Jacket,199.99,2023-05-14,done
+1013,3,Dumbbells Set,89.99,20/05/2023,completed
+1014,11,Garden Hose,39.99,2023-06-01,canceled
+1015,12,Bookshelf,189.00,2023-06-10,completed
+1016,13,Linen Shirt,79.99,15-06-2023,pending
+1017,14,Tennis Racket,75.00,2023-07-03,completed
+1018,15,Design Patterns,54.99,2023-07-19,completed
+1019,16,Plant Pot,24.99,2023-08-01,completed
+1020,17,USB-C Hub,89.99,05/08/2023,completed
+1021,18,Data Science Handbook,59.99,2023-08-20,completed
+1022,19,Yoga Mat,,2023-09-04,completed
+1023,20,4K Monitor,599.00,2023-09-15,completed
+1024,1,Laptop Pro,1200.00,15-09-2023,completed
+1025,2,Running Shoes,120.00,2023-10-02,cancelled
+1026,3,Wireless Mouse,45.00,10/10/2023,completed
+1027,4,Coffee Table,349.00,2023-10-28,completed
+1028,5,Python Cookbook,49.99,2023-11-05,completed
+1029,6,Mechanical Keyboard,149.99,2023-11-19,completed
+1030,7,Winter Jacket,199.99,2023-12-01,done
+1031,8,Blue Jeans,59.99,2023-12-10,completed
+1032,9,Bookshelf,189.00,28/12/2023,completed
+1033,10,USB-C Hub,,2024-01-05,completed
+1034,1,Design Patterns,54.99,2024-01-18,completed
+1035,2,Dumbbells Set,89.99,2024-01-28,completed
+1036,3,4K Monitor,599.00,10/02/2024,completed
+1037,5,Laptop Pro,1200.00,2024-02-20,completed
+1038,7,Clean Code,44.99,2024-03-05,refunded
+1039,9,Linen Shirt,79.99,2024-03-17,completed
+1040,11,Tennis Racket,75.00,2024-04-01,completed
+,,,,,

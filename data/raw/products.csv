@@ -1,0 +1,21 @@
+product_id,product_name,category,unit_price
+1,Laptop Pro,Electronics,1200.00
+2,Wireless Mouse,Electronics,45.00
+3,USB-C Hub,Electronics,89.99
+4,Blue Jeans,Apparel,59.99
+5,Running Shoes,Apparel,120.00
+6,Winter Jacket,Apparel,199.99
+7,Coffee Table,Home & Garden,349.00
+8,Plant Pot,Home & Garden,24.99
+9,Garden Hose,Home & Garden,39.99
+10,Python Cookbook,Books,49.99
+11,Clean Code,Books,44.99
+12,Design Patterns,Books,54.99
+13,Yoga Mat,Sports,35.00
+14,Dumbbells Set,Sports,89.99
+15,Tennis Racket,Sports,75.00
+16,4K Monitor,Electronics,599.00
+17,Mechanical Keyboard,Electronics,149.99
+18,Linen Shirt,Apparel,79.99
+19,Bookshelf,Home & Garden,189.00
+20,Data Science Handbook,Books,59.99

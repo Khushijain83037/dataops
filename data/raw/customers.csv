@@ -1,0 +1,22 @@
+customer_id,name,email,region,signup_date
+1,Alice Johnson,alice@example.com,North,2022-03-15
+2,Bob Smith,bob@example.com,South,2022-06-20
+3,Charlie Brown,charlie@example.com,East,2022-01-10
+4,Diana Prince,diana@example.com,West,2022-09-05
+5,Eve Wilson,eve@example.com,Central,2022-11-22
+6,Frank Miller,frank@example.com,North,2023-01-08
+7,Grace Lee,grace@example.com,South,2022-07-14
+8,Henry Davis,,Central,2022-04-30
+9,Iris Taylor,iris@example.com,East,2023-02-18
+10,Jack Moore,jackmoore,West,2022-08-25
+1,Alice Johnson,alice@example.com,North,2022-03-15
+11,Karen White,karen@example.com,,2022-12-01
+12,Liam Harris,liam@example.com,South,2023-03-10
+13,Mia Clark,mia@example.com,East,2022-05-17
+14,Noah Lewis,,North,2022-10-09
+15,Olivia Young,olivia@example.com,West,2023-04-25
+16,Peter Hall,peter@example.com,Central,2022-02-14
+17,Quinn Allen,quinn@example.com,North,2023-05-30
+18,Rachel Scott,rachel@example.com,South,2022-06-06
+19,Sam Turner,sam@example.com,East,2023-01-21
+20,Tina Baker,tina@example.com,West,2022-09-12

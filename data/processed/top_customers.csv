@@ -1,0 +1,11 @@
+customer_id,name,region,total_spend,churned
+1.0,Alice Johnson,North,2604.98,False
+5.0,Eve Wilson,Central,1299.98,False
+8.0,Henry Davis,Central,1259.99,True
+7.0,Grace Lee,South,798.99,True
+3.0,Charlie Brown,East,733.99,False
+4.0,Diana Prince,West,698.0,True
+20.0,Tina Baker,West,599.0,True
+9.0,Iris Taylor,East,388.99,False
+2.0,Bob Smith,South,334.98,False
+12.0,Liam Harris,South,189.0,True
