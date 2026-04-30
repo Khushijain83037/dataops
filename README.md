@@ -1,8 +1,17 @@
 # DataOps Analytics Assignment
 
-**Candidate:** Khushi Jains
+**Candidate:** Khushi Jain
 **Stack:** Python 3.9+ · pandas · FastAPI · React 18 · Recharts
 **Submitted for:** Fullstack Developer Role
+
+## 🌐 Live Demo
+
+| | URL |
+|---|---|
+| **Frontend Dashboard** | https://dataopsk.netlify.app |
+| **Backend API** | https://pyth.devchauhan.com |
+| **API Docs** | https://pyth.devchauhan.com/docs |
+| **Health Check** | https://pyth.devchauhan.com/health |
 
 ---
 
@@ -38,15 +47,11 @@ assignment/
 
 > Run each command in a **separate terminal**. PowerShell users: do not use `&&`, run each line individually.
 
----
-
 ### Step 1 — Install Python dependencies
 
 ```
 pip install pandas numpy fastapi uvicorn python-multipart pytest
 ```
-
----
 
 ### Step 2 — Run Part 1: Data Cleaning
 
@@ -57,13 +62,6 @@ python clean_data.py
 Outputs saved to `data/processed/`:
 - `customers_clean.csv`
 - `orders_clean.csv`
-
-Optional custom paths:
-```
-python clean_data.py --customers data/raw/customers.csv --orders data/raw/orders.csv
-```
-
----
 
 ### Step 3 — Run Part 2: Analysis
 
@@ -77,16 +75,7 @@ Outputs saved to `data/processed/`:
 - `category_performance.csv`
 - `regional_analysis.csv`
 
-Optional custom paths:
-```
-python analyze.py --customers data/processed/customers_clean.csv --orders data/processed/orders_clean.csv --products data/raw/products.csv
-```
-
----
-
 ### Step 4 — Start Backend API
-
-Open a **new terminal window**, then run:
 
 ```
 cd backend
@@ -104,13 +93,7 @@ API live at: `http://localhost:8000`
 | `GET /api/categories` | Category performance (revenue, AOV, order count) |
 | `GET /api/regions` | Regional analysis (customers, orders, revenue) |
 
-Interactive Swagger docs: `http://localhost:8000/docs`
-
----
-
 ### Step 5 — Start Frontend Dashboard
-
-Open another **new terminal window**, then run:
 
 ```
 cd frontend
@@ -119,10 +102,6 @@ npm run dev
 ```
 
 Dashboard live at: `http://localhost:3000`
-
-> Make sure the backend is running on port 8000 before opening the dashboard.
-
----
 
 ### Step 6 — Run Tests (Bonus)
 
@@ -137,7 +116,6 @@ Expected output: **29 passed**
 ## What Each Part Does
 
 ### Part 1 — clean_data.py
-
 - Removes duplicate customers (keeps most recent `signup_date`)
 - Validates and lowercases emails, adds `is_valid_email` flag
 - Parses dates in 3 formats: `YYYY-MM-DD`, `DD/MM/YYYY`, `MM-DD-YYYY`
@@ -149,17 +127,11 @@ Expected output: **29 passed**
 - Prints full cleaning report to stdout
 
 ### Part 2 — analyze.py
-
 - Left-joins orders → customers → products (explicit `on=` and `how=` args)
 - Reports unmatched rows after each join
-- Generates 5 output CSVs:
-  - Monthly revenue trend (completed orders only)
-  - Top 10 customers by total spend + 90-day churn flag
-  - Category performance (revenue, avg order value, order count)
-  - Regional analysis (customers, orders, revenue, avg per customer)
+- Generates 5 output CSVs: monthly revenue, top customers + churn, category performance, regional analysis
 
 ### Part 3 — Backend + Frontend
-
 - FastAPI backend with CORS enabled, 404 error handling on missing files
 - React dashboard with Recharts — line chart, bar chart, sortable table, region cards
 - Live API data fetching with loading and error states
