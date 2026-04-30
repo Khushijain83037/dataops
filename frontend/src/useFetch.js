@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const BASE = 'https://dataops-z1hz.onrender.com'
+const BASE = http://70.38.97.86:4466/health'
 
 export function useFetch(endpoint) {
   const [data, setData]       = useState(null)
